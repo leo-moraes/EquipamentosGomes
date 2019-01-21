@@ -1,0 +1,42 @@
+<!-- 
+  This file is provided to store the settings for your Data Aquarium project. 
+  You can safely delete this file if no further code generation is planned.
+-->
+<project compatibility="20111118" dataModel="required" appFolder="app" displayName="Equipamentos Gomes" group="" type="Web Site Factory" subscriptionLevel="Unlimited" name="EquipamentosGomes" prettyName="Equipamentos Gomes" codeDomProvider="CSharp" targetFramework="4.6" userInterface="TouchUI" pageImplementation="html" sourceControl="git" xmlns="urn:schemas-codeontime-com:data-aquarium-project">
+  <connectionString hostDatabaseSharing="false" sessionStateMode="None">Server=gomes_compras.mysql.dbaas.com.br;User ID=gomes_compras;Password=WZphESVsSB8sh@;Database=gomes_compras;Persist Security Info=True;</connectionString>
+  <providerName>MySql.Data.MySqlClient</providerName>
+  <namespace>FreeTrial</namespace>
+  <webServer run="true" port="6415" preview="CMA" client="W7">
+    <webConfig></webConfig>
+  </webServer>
+  <features useSaveAndNew="true" pageHeader="Equipamentos Gomes Castilho" copyright="Desenvolvido por Leonardo Moraes de Oliveira" annotations="false" annotationsPath="" newColumn="true" floating="false" maxGridFields="100" multiSelect="true" batchEdit="true" advancedSearch="false" advancedLookup="false" relationshipExplorer="false" enablePermalinks="false" enableHistory="false" enableTransactions="false" showModalForms="true" tabViewSelection="5">
+    <navigation detectUnderscoreSeparatedSchema="" />
+    <blob allowUploadOnInsert="true" />
+    <framework scriptOnly="true" useExtenders="false" />
+    <grid actionColumn="true" />
+    <touch desktopDisplayDensity="Condensed" mobileDisplayDensity="Auto" transitions="" sidebar="Landscape" labelsInList="DisplayedBelow" initialListMode="SeeAll" menu="toolbar" promoteActions="true" smartDates="true" mapApiIdentifier="AIzaSyB8uf9m0_dmMUdSW7FgDw0IPaFEf2wM11I" mapApiIdentifierMobile="" />
+    <cms searchEngine="" analysisEngine="" analysisOnDataPages="false" />
+    <ease urlHashing="false">
+      <auditing></auditing>
+    </ease>
+    <packageProperties></packageProperties>
+    <smtp deliveryMethod="Network" deliveryFormat="" from="" clientDomain="" targetName="" host="" port="" defaultCredentials="true" enableSsl="false" username="" password="" />
+  </features>
+  <reports enabled="true" version="14" />
+  <host path="" url="" />
+  <databaseObjectFilter generate="ControllersAndPages"></databaseObjectFilter>
+  <bll normalizeModelNames="true" discoveryDepth="3" labelFormatExpression="" selectMethod="Selecionar" selectSingleMethod="SelecionaUnico" insertMethod="Inserir" updateMethod="Atualizar" deleteMethod="Deletar" generateSharedBusinessRules="false" includeViews="true" tabViewSelection="5">
+    <fieldMap></fieldMap>
+    <keys></keys>
+    <fieldsToIgnore></fieldsToIgnore>
+    <fieldsToHide></fieldsToHide>
+    <customLabels></customLabels>
+  </bll>
+  <membership enabled="false" providerName="MySql.Data.MySqlClient" connectionString="" windowsAuthentication="false" activeDirectory="false" customSecurity="false" dedicatedLogin="false" displayRememberMe="true" rememberMeSet="false" displaySignUp="true" displayPasswordRecovery="true" displayMyAccount="true" displayHelp="true" idleUserDetectionTimeout="-1" tabViewSelection="0" validationKey="8A4B7803EFD46A619835377558F9299C59A73B322688899575C20AC6B3AC7299941AB2DFF2BA80ED6F7558262E35BF4DEF53F944724B3F966A6C6EEA311EC41C">
+    <adConfig></adConfig>
+    <config></config>
+  </membership>
+  <globalization uiCulture="pt-BR" culture="pt-BR" enableClientBasedCulture="false" supportedCultures="pt-BR,pt-BR; " googleTranslateApiKey="" />
+  <layout name="Classic" menuStyle="MultiLevel" />
+  <theme name="Aquarium" />
+</project>
